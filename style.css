@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-  background: none;
+  background: url(img/texture-paper.png);
   background-size: 280px 280px;
 }
 
@@ -527,7 +527,7 @@ button {
 }
 
 .showScrollTop {
-  font-size: 14px;
+  font-size: 16px;
   opacity: 1;
 }
 
@@ -679,7 +679,7 @@ a {
 }
 
 p {
-  font-size: 11px;
+  font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -712,7 +712,7 @@ h2 {
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 16px;
   text-transform: uppercase;
   font-weight: 700;
   color: #333333 !important;
@@ -755,7 +755,7 @@ h4 {
 }
 
 .black-background {
-  background-color: rgb(69 69 69);
+  background-color: #443d3d;
   padding: 40px 40px 40px 40px;
 }
 
@@ -773,15 +773,17 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #f3976c;
+  background-color: #765f55;
 }
 
 .tc-white {
   color: #f3976c !important;
+  padding: 10px;
+  background-color: #443d3d;
 }
 
 .btn-atomic-tangerine {
-  background: #f3976c;
+  background: #765f55;
   color: #ffffff !important;
 }
 
@@ -1031,7 +1033,7 @@ h4 {
 }
 .keywords {
   color: #cccccc;
-  font-size: 1px;
+  font-size: 16px;
 }
 
 @media (max-width: 400px) {
