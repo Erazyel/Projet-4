@@ -757,6 +757,8 @@ h4 {
 .black-background {
   background-color: #443d3d;
   padding: 40px 40px 40px 40px;
+  z-index: 1;
+  position: relative;
 }
 
 .bold-link {
@@ -828,7 +830,9 @@ h4 {
 .bg-presentation {
   background-image: url("img/image-de-presentation.jpg");
 }
-
+.contactp2 {
+  padding: 2rem;
+}
 @media (max-width: 1024px) {
   .bloc {
     padding-left: 20px;
